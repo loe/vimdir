@@ -69,4 +69,4 @@ nnoremap <leader>v V`]
 inoremap jj <ESC>
 
 map <F2> :NERDTreeToggle<cr>
-nmap <leader>R :RainbowParenthesesToggle<CR>
+nmap <leader>r :RainbowParenthesesToggle<CR>
