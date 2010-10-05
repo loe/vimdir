@@ -27,6 +27,11 @@ set backspace=indent,eol,start
 set laststatus=2
 set relativenumber
 
+" Backups
+set backupdir=~/.vim/tmp/backup/ " backups
+set directory=~/.vim/tmp/swap/   " swap files
+set backup                        " enable backups
+
 nnoremap / /\v
 vnoremap / /\v
 set ignorecase
