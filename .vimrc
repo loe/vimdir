@@ -44,8 +44,12 @@ nnoremap <leader><space> :noh<cr>
 nnoremap <tab> %
 vnoremap <tab> %
 
+vnoremap , <leader>
+nnoremap , <leader>
+
 set wrap
 set textwidth=79
+set t_Co=256
 set formatoptions=qrn1
 
 set list
@@ -56,7 +60,16 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+nnoremap <C-o> <C-w>o
 
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
 nnoremap j gj
 nnoremap k gk
 
@@ -72,6 +85,7 @@ nnoremap <leader>S ?{<CR>jV/^\s*\}?$<CR>k:sort<CR>:noh<CR>
 nnoremap <leader>v V`]
 
 inoremap jj <ESC>
+inoremap <C-j> <esc>
 
 map <F2> :NERDTreeToggle<cr>
 nmap <leader>r :RainbowParenthesesToggle<CR>
