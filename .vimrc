@@ -1,5 +1,6 @@
 filetype off
 call pathogen#runtime_append_all_bundles()
+runtime macros/matchit.vim
 filetype plugin indent on
 
 set nocompatible
