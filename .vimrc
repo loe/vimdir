@@ -1,4 +1,6 @@
 filetype off
+" yankring.vim
+let g:yankring_history_dir = '$HOME/.vim'
 call pathogen#runtime_append_all_bundles()
 runtime macros/matchit.vim
 filetype plugin indent on
@@ -90,3 +92,7 @@ inoremap <C-j> <esc>
 
 map <F2> :NERDTreeToggle<cr>
 nmap <leader>r :RainbowParenthesesToggle<CR>
+
+" yankring.vim
+let g:yankring_history_dir = '$HOME/.vim'
+
