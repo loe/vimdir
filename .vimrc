@@ -79,8 +79,6 @@ nnoremap k gk
 set guifont=Inconsolata:h14
 colorscheme railscasts
 
-au FocusLost * :wa
-
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 nnoremap <leader>a :Ack
 nnoremap <leader>ft Vatzf
