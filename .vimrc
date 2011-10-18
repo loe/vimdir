@@ -1,9 +1,9 @@
 filetype off
-" yankring.vim
-let g:yankring_history_dir = '$HOME/.vim'
-call pathogen#runtime_append_all_bundles()
-runtime macros/matchit.vim
+
+call pathogen#infect()
+syntax on
 filetype plugin indent on
+
 
 set nocompatible
 
