@@ -5,7 +5,6 @@ call pathogen#helptags()
 syntax on
 filetype plugin indent on
 
-
 set nocompatible
 
 set modelines=0
@@ -94,4 +93,7 @@ nmap <leader>r :RainbowParenthesesToggle<CR>
 
 " yankring.vim
 let g:yankring_history_dir = '$HOME/.vim'
+
+" jslint.vim
+let $JS_CMD='node'
 
