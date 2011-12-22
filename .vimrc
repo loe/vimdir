@@ -88,9 +88,6 @@ nnoremap <leader>v V`]
 inoremap jj <ESC>
 inoremap <C-j> <esc>
 
-map <F2> :NERDTreeToggle<cr>
-nmap <leader>r :RainbowParenthesesToggle<CR>
-
 " yankring.vim
 let g:yankring_history_dir = '$HOME/.vim'
 
