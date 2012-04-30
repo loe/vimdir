@@ -96,3 +96,6 @@ let $JS_CMD='node'
 
 " CtrlP.vim
 let g:ctrlp_map = '<leader>p'
+
+" Powerline.vim
+let g:Powerline_symbols = 'fancy'
