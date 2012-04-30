@@ -94,3 +94,5 @@ let g:yankring_history_dir = '$HOME/.vim'
 " jslint.vim
 let $JS_CMD='node'
 
+" CtrlP.vim
+let g:ctrlp_map = '<leader>p'
