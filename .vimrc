@@ -2,7 +2,7 @@ filetype off
 
 call pathogen#infect()
 call pathogen#helptags()
-syntax on
+syntax enable
 filetype plugin indent on
 
 set nocompatible
@@ -77,7 +77,8 @@ nnoremap j gj
 nnoremap k gk
 
 set guifont=Inconsolata:h14
-colorscheme railscasts
+set background=dark
+colorscheme solarized
 
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 nnoremap <leader>a :Ack
@@ -92,6 +93,7 @@ inoremap <C-j> <esc>
 let g:yankring_history_dir = '$HOME/.vim'
 
 " jslint.vim
+nmap <leader>js :JSLintToggle<CR>
 let $JS_CMD='node'
 
 " CtrlP.vim
