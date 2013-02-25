@@ -35,8 +35,6 @@ set backupdir=~/.vim/tmp/backup/ " backups
 set directory=~/.vim/tmp/swap/   " swap files
 set backup                        " enable backups
 
-nnoremap / /\v
-vnoremap / /\v
 set ignorecase
 set smartcase
 set gdefault
