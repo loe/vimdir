@@ -87,6 +87,9 @@ nnoremap <leader>v V`]
 inoremap jj <ESC>
 inoremap <C-j> <esc>
 
+" numbers.vim
+nnoremap <F3> :NumbersToggle<CR>
+
 " yankring.vim
 let g:yankring_history_dir = '$HOME/.vim'
 
