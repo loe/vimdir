@@ -93,10 +93,6 @@ nnoremap <F3> :NumbersToggle<CR>
 " yankring.vim
 let g:yankring_history_dir = '$HOME/.vim'
 
-" jslint.vim
-nmap <leader>js :JSLintToggle<CR>
-let $JS_CMD='node'
-
 " CtrlP.vim
 let g:ctrlp_map = '<leader>p'
 
