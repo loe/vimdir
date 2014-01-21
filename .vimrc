@@ -98,3 +98,5 @@ let g:ctrlp_map = '<leader>p'
 
 " Powerline.vim
 let g:Powerline_symbols = 'fancy'
+
+com! FormatJSON %!python -m json.tool
