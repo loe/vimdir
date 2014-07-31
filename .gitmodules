@@ -76,3 +76,6 @@
 [submodule "bundle/vimerl"]
 	path = bundle/vimerl
 	url = https://github.com/oscarh/vimerl.git
+[submodule "bundle/haproxy.vim"]
+	path = bundle/haproxy.vim
+	url = https://github.com/sclo/haproxy.vim.git
