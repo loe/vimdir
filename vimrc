@@ -53,8 +53,6 @@ set textwidth=79
 set t_Co=256
 set formatoptions=qrn1
 
-set list
-set listchars=tab:▸\ ,eol:¬
 
 nnoremap <leader>w <C-w>v<C-w>l
 nnoremap <C-h> <C-w>h
