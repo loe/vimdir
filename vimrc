@@ -1,11 +1,32 @@
-filetype off
+set nocompatible              " be iMproved, required
+filetype off                  " required
 
-call pathogen#infect()
-call pathogen#helptags()
-syntax enable
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'myusuf3/numbers.vim'
+Plugin 'mtth/scratch.vim'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'tpope/vim-endwise'
+Plugin 'Lokaltog/vim-powerline'
+Plugin 'tpope/vim-repeat'
+Plugin 'airblade/vim-rooter'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-surround'
+Plugin 'kana/vim-textobj-user'
+Plugin 'nelstrom/vim-textobj-rubyblock'
+Plugin 'chrismetcalf/vim-yankring'
+Plugin 'fatih/vim-go'
+Plugin 'klen/python-mode'
+call vundle#end()
+
 filetype plugin indent on
-
-set nocompatible
+syntax enable
 
 set modelines=0
 
