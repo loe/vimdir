@@ -23,6 +23,7 @@ Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'chrismetcalf/vim-yankring'
 Plugin 'fatih/vim-go'
 Plugin 'klen/python-mode'
+Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
 
 filetype plugin indent on
