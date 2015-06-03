@@ -53,9 +53,9 @@ set laststatus=2
 set number
 
 " Backups
-set backupdir=~/.vim/tmp/backup/ " backups
-set directory=~/.vim/tmp/swap/   " swap files
-set backup                        " enable backups
+set backupdir=~/.vim/backup// " backups
+set directory=~/.vim/swap//   " swap files
+set backup                    " enable backups
 
 set ignorecase
 set smartcase
