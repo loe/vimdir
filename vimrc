@@ -24,6 +24,9 @@ Plugin 'chrismetcalf/vim-yankring'
 Plugin 'fatih/vim-go'
 Plugin 'klen/python-mode'
 Plugin 'hhvm/vim-hack'
+Plugin 'mxw/vim-xhp'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 call vundle#end()
 
 filetype plugin indent on
