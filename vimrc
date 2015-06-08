@@ -122,4 +122,8 @@ let g:ctrlp_map = '<leader>p'
 " Powerline.vim
 let g:Powerline_symbols = 'fancy'
 
+" Python-mode
+let g:pymode_rope_lookup_project = 0
+let g:pymode_rope = 0
+
 com! FormatJSON %!python -m json.tool
