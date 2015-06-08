@@ -27,6 +27,7 @@ Plugin 'hhvm/vim-hack'
 Plugin 'mxw/vim-xhp'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
+Plugin 'solarnz/thrift.vim'
 call vundle#end()
 
 filetype plugin indent on
