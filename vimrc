@@ -39,6 +39,8 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 
+set foldlevel=10
+
 set encoding=utf-8
 set scrolloff=3
 set autoindent
