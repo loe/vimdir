@@ -127,5 +127,9 @@ let g:Powerline_symbols = 'fancy'
 " Python-mode
 let g:pymode_rope_lookup_project = 0
 let g:pymode_rope = 0
+let g:pymode_lint_checkers = ['pep8', 'mccabe']
 
 com! FormatJSON %!python -m json.tool
+
+" Filetypes
+au BufNewFile,BufRead *.cconf,*.cinc  set filetype=python
