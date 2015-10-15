@@ -56,10 +56,9 @@ set backspace=indent,eol,start
 set laststatus=2
 set number
 
-" Backups
-set backupdir=~/.vim/backup// " backups
-set directory=~/.vim/swap//   " swap files
-set backup                    " enable backups
+" Disable Swap and Backups
+set nobackup
+set nowritebackup
 
 set ignorecase
 set smartcase
