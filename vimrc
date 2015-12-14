@@ -132,4 +132,4 @@ let g:pymode_lint_checkers = ['pep8', 'mccabe']
 com! FormatJSON %!python -m json.tool
 
 " Filetypes
-au BufNewFile,BufRead *.cconf,*.cinc  set filetype=python
+au BufNewFile,BufRead *.cconf,*.cinc,*.tw  set filetype=python
