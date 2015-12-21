@@ -28,6 +28,7 @@ Plugin 'mxw/vim-xhp'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'solarnz/thrift.vim'
+Plugin 'klen/python-mode'
 call vundle#end()
 
 filetype plugin indent on
@@ -127,7 +128,7 @@ let g:Powerline_symbols = 'fancy'
 " Python-mode
 let g:pymode_rope_lookup_project = 0
 let g:pymode_rope = 0
-let g:pymode_lint_checkers = ['pep8', 'mccabe']
+let g:pymode_lint_checkers = ['pep8']
 
 com! FormatJSON %!python -m json.tool
 
