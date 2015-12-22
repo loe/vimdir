@@ -125,10 +125,20 @@ let g:ctrlp_map = '<leader>p'
 let g:Powerline_symbols = 'fancy'
 
 " Python-mode
-let g:pymode_motion = 0
-let g:pymode_rope = 0
+" Disable folding, causes vim to be very slow!
+let g:pymode_folding = 0
+" Tame the linter, just want PEP8.
+let g:pymode_lint = 1
 let g:pymode_lint_checkers = ['pep8']
-let g:pymode_lint_write = 0
+let g:pymode_lint_on_fly = 0
+let g:pymode_lint_unmodified = 0
+let g:pymode_lint_on_write = 0
+" Disablke rope and friends.
+let g:pymode_rope = 0
+let g:pymode_rope_autoimport = 0
+let g:pymode_rope_completion = 0
+let g:pymode_rope_complete_on_dot = 0
+let g:pymode_rope_lookup_project = 0
 nnoremap <leader>p :PymodeLint<cr>
 
 com! FormatJSON %!python -m json.tool
