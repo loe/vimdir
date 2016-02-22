@@ -133,6 +133,8 @@ let g:pymode_lint_checkers = ['pep8']
 let g:pymode_lint_on_fly = 0
 let g:pymode_lint_unmodified = 0
 let g:pymode_lint_on_write = 0
+" Use 80 character lines.
+let g:pymode_options_max_line_length = 80
 " Disablke rope and friends.
 let g:pymode_rope = 0
 let g:pymode_rope_autoimport = 0
